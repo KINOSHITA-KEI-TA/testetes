@@ -21,9 +21,15 @@ namespace testetes.Controllers
         public IActionResult Index()
         {
             return View();
+            //sss
         }
 
         public IActionResult Privacy()
+        {
+            return NewMethod();
+        }
+
+        private ViewResult NewMethod()
         {
             return View();
         }
